@@ -25,6 +25,8 @@ d_location (TEXT): Floor or wing location in the hospital.
 
 d_contactemergency (TEXT): Emergency contact extension for the department.
 
+<img width="777" height="237" alt="image" src="https://github.com/user-attachments/assets/2053fab7-647a-4a2d-8726-d4156b562571" />
+
 
 
 👨‍⚕️ 2. Doctor Table
@@ -44,6 +46,8 @@ D_time_morning (TIME): Morning shift start/end time.
 
 D_time_evening (TIME): Evening shift start/end time.
 
+<img width="888" height="266" alt="image" src="https://github.com/user-attachments/assets/ac219006-2c5b-4469-8195-7a26baa82c83" />
+
 
 
 👤 3. Patient Table
@@ -61,6 +65,8 @@ p_contact (INT): Primary mobile or emergency contact number.
 
 p_address (VARCHAR): Residential address.
 
+<img width="783" height="272" alt="image" src="https://github.com/user-attachments/assets/bdb434b9-1ffa-4e54-a96b-dc3666af6ca3" />
+
 
 
 📅 4. Appointment Table
@@ -75,6 +81,8 @@ d_id (INT, FK): Reference to the doctor.
 a_date (DATETIME): Scheduled date and time of the visit.
 
 a_fee (INT): Consultation charges for the session.
+
+<img width="640" height="272" alt="image" src="https://github.com/user-attachments/assets/e383a7ba-4e66-4e6a-a823-d6aba2459c72" />
 
 
 
@@ -96,3 +104,5 @@ r_status (TEXT): Recovery status (e.g., Under Treatment, Recovered).
 r_followupdate (DATE): Suggested date for the next visit.
 
 r_fee: fee for medicenenand test 
+
+<img width="840" height="318" alt="image" src="https://github.com/user-attachments/assets/bc31751c-f095-4f66-a799-7a706fd979e7" />
