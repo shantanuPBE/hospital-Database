@@ -1,5 +1,5 @@
 <img width="1182" height="677" alt="Screenshot 2026-04-11 101559" src="https://github.com/user-attachments/assets/ad748fac-820c-4e73-89c3-7fe7ee85f60d" />
-this is image of pictorial representation of hospital datbase 
+
 🏥 Hospital Management System (HMS) - Backend Schema
 📌 Project Essence
 This project is a highly normalized Relational Database Design for a Hospital Management System. Unlike basic projects, this schema is designed to handle Multiple Diagnoses per Visit and Doctor-Specific Shift Timings, making it ready for real-world application scaling.
