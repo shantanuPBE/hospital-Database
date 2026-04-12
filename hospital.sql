@@ -32,3 +32,13 @@ INSERT INTO department (d_id, d_name, d_location, d_emergency) VALUES
 (105, 'Emergency', 'Ground Floor', 1),
 (106, 'Dermatology', 'Block D, Floor 2', 0),
 (107, 'Oncology', 'Block B, Floor 4', 1);
+
+-- insert the record in doctor table 
+INSERT INTO doctor (D_id, D_name, D_specialization, D_day, time, dept_id) VALUES
+(1, 'Dr. Aryan Sharma', 'Cardiologist', 'Monday, Wednesday', '10:30:00', 101),
+(2, 'Dr. Sneha Patel', 'Neurologist', 'Tuesday, Thursday', '11:00:00', 102),
+(3, 'Dr. Amit Verma', 'Orthopedic', 'Monday, Friday', '09:00:00', 103),
+(4, 'Dr. Priya Das', 'Pediatrician', 'Wednesday, Saturday', '14:30:00', 104),
+(5, 'Dr. Rahul Mehta', 'General Physician', 'Daily', '08:00:00', 105),
+(6, 'Dr. Kavita Reddy', 'Dermatologist', 'Tuesday, Friday', '16:00:00', 106),
+(7, 'Dr. Vikram Singh', 'Surgeon', 'Sunday', '12:00:00', 101);
