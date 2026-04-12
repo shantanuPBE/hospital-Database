@@ -23,3 +23,12 @@ create table patient(p_id int primary key , p_name varchar(20),p_dob date , p_ge
  create table record(r_id int primary key , a_id int , r_disease varchar(50),r_presecption varchar(50),test varchar(30),status varchar(20),r_follodate date ,r_fee int , constraint fk_appointment_id foreign key(a_id) references appointment(a_id));
 --  create the table of records and connect with appointment ;
 
+-- to enter the details in department table 
+INSERT INTO department (d_id, d_name, d_location, d_emergency) VALUES
+(101, 'Cardiology', 'Block A, Floor 1', 1),
+(102, 'Neurology', 'Block B, Floor 3', 0),
+(103, 'Orthopedics', 'Block A, Floor 2', 1),
+(104, 'Pediatrics', 'Block C, Floor 1', 0),
+(105, 'Emergency', 'Ground Floor', 1),
+(106, 'Dermatology', 'Block D, Floor 2', 0),
+(107, 'Oncology', 'Block B, Floor 4', 1);
