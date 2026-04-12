@@ -42,3 +42,33 @@ INSERT INTO doctor (D_id, D_name, D_specialization, D_day, time, dept_id) VALUES
 (5, 'Dr. Rahul Mehta', 'General Physician', 'Daily', '08:00:00', 105),
 (6, 'Dr. Kavita Reddy', 'Dermatologist', 'Tuesday, Friday', '16:00:00', 106),
 (7, 'Dr. Vikram Singh', 'Surgeon', 'Sunday', '12:00:00', 101);
+
+-- to enter the record or details of patient 
+INSERT INTO patient (p_id, p_name, p_dob, p_gender, p_contact, p_address) VALUES
+(1001, 'Rohan Mehra', '1995-05-15', 'Male', '9876543210', '12/A, Green Park, Delhi'),
+(1002, 'Suman Sharma', '1988-12-02', 'Female', '8877665544', 'Flat 402, Sunrise Apt, Mumbai'),
+(1003, 'Arjun Kapoor', '2001-08-20', 'Male', '9911223344', 'House No. 45, Sector 15, Chandigarh'),
+(1004, 'Ananya Iyer', '1992-03-10', 'Female', '7766554433', 'Plot 89, Indiranagar, Bangalore'),
+(1005, 'Vikram Rathore', '1975-07-25', 'Male', '9001234567', 'B-12, Malviya Nagar, Jaipur'),
+(1006, 'Ishita Dutta', '1998-11-30', 'Female', '8100998877', 'Salt Lake City, Block C, Kolkata'),
+(1007, 'Kabir Singh', '1985-01-12', 'Male', '9555667788', 'Banjara Hills, Road No 10, Hyderabad');
+
+-- to enter the record or data in appiontment table
+INSERT INTO appointment (a_id, p_id, D_id, a_date, a_fee) VALUES
+(501, 1001, 1, '2026-04-15', 500),
+(502, 1002, 2, '2026-04-15', 800),
+(503, 1003, 3, '2026-04-16', 600),
+(504, 1004, 4, '2026-04-16', 400),
+(505, 1005, 5, '2026-04-17', 300),
+(506, 1006, 6, '2026-04-17', 700),
+(507, 1007, 1, '2026-04-18', 500);
+
+-- to enter the record in our table record
+INSERT INTO record (r_id, a_id, r_disease, r_presecption, test, status, r_follodate, r_fee) VALUES
+(1, 501, 'Diabetes', 'Metformin 500mg', 'HbA1c', 'Ongoing', '2026-05-15', 200),
+(2, 501, 'Hypertension', 'Amlodipine 5mg', 'BP Check', 'Stable', '2026-05-15', 100),
+(3, 502, 'Migraine', 'Naproxen', 'MRI Brain', 'Under Treatment', '2026-04-30', 500),
+(4, 503, 'Back Pain', 'Physiotherapy', 'X-Ray Spine', 'Recovering', '2026-05-01', 300),
+(5, 503, 'Vitamin D Deficiency', 'D3 Capsules', 'Blood Test', 'Ongoing', '2026-05-01', 150),
+(6, 504, 'Common Cold', 'Paracetamol', 'None', 'Cured', NULL, 50),
+(7, 505, 'Asthma', 'Inhaler', 'PFT Test', 'Critical', '2026-04-20', 400);
