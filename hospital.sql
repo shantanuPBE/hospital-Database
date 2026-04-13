@@ -12,7 +12,7 @@ describe doctor;
 -- this above command show or  describe the any table means it's column 
 -- in doctor table u create a foreign key along with table but u are also add foreign key after creating the table
  alter table doctor add dept_id int ;
---  first add column of department than apply foreign key in this column 
+--  first add column of department than apply foreign key in this column
  alter table doctor add constraint fk_d_id foreign key(dept_id) references department(d_id);
 --  now add foreign key on dept_id in doctor table 
 -- check using describe tablename ;
