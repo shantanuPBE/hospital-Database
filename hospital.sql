@@ -1,4 +1,4 @@
-in this file all the commands to create the table in hospital database 
+in this file all the commands to create the table in hospital database
 
  show databases;
 --  this command show how much databases in your mysql dbms
